@@ -1,0 +1,78 @@
+/* General Styles */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+p, ul {
+    color: #555;
+}
+
+section {
+    padding: 60px 0;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* About Section */
+.about ul, .about li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Education Section */
+.education-item, .experience-item, .project-item, .activity-item {
+    margin-bottom: 30px;
+}
+
+/* Contact Section */
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 0.5em 2em;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background: #555;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
